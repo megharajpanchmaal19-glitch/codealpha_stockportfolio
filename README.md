@@ -53,8 +53,8 @@ A **Django + MySQL** web application that lets you build and track a simulated s
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/megharajpanchmaal19-glitch/stock-portfolio-tracker.git
-cd stock-portfolio-tracker
+git clone https://github.com/megharajpanchmaal19-glitch/codealpha_stockportfolio.git
+cd codealpha_stockportfolio
 ```
 
 ### 2. Create & Activate Virtual Environment
