@@ -9,7 +9,7 @@ The frontend never supplies a price that the backend trusts.
 from decimal import Decimal
 
 # ------------------------------------------------------------------
-# Sample stock prices (USD) — manually defined for demonstration.
+# Sample stock prices (INR / ₹) — manually defined for demonstration.
 # To add a new stock, add its symbol here. The frontend will pick
 # it up automatically from the /api/stocks/ endpoint.
 # ------------------------------------------------------------------

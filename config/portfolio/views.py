@@ -256,8 +256,8 @@ def api_portfolio_export(request):
 
     writer = csv.writer(response)
     writer.writerow([
-        "Stock Symbol", "Company Name", "Stock Price (USD)",
-        "Quantity", "Investment Value (USD)", "Date Added",
+        "Stock Symbol", "Company Name", "Stock Price (₹)",
+        "Quantity", "Investment Value (₹)", "Date Added",
     ])
 
     total = Decimal("0.00")

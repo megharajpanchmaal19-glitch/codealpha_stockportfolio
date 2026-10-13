@@ -31,15 +31,15 @@ A **Django + MySQL** web application that lets you build and track a simulated s
 
 ## 📦 Supported Stocks (Sample Prices)
 
-| Symbol | Company | Price (USD) |
+| Symbol | Company | Price (₹) |
 |--------|---------|-------------|
-| AAPL | Apple Inc. | $180.00 |
-| TSLA | Tesla Inc. | $250.00 |
-| GOOGL | Alphabet Inc. | $150.00 |
-| MSFT | Microsoft Corporation | $420.00 |
-| AMZN | Amazon.com Inc. | $190.00 |
-| NVDA | NVIDIA Corporation | $120.00 |
-| META | Meta Platforms Inc. | $500.00 |
+| AAPL | Apple Inc. | ₹180.00 |
+| TSLA | Tesla Inc. | ₹250.00 |
+| GOOGL | Alphabet Inc. | ₹150.00 |
+| MSFT | Microsoft Corporation | ₹420.00 |
+| AMZN | Amazon.com Inc. | ₹190.00 |
+| NVDA | NVIDIA Corporation | ₹120.00 |
+| META | Meta Platforms Inc. | ₹500.00 |
 
 ---
 
@@ -53,7 +53,7 @@ A **Django + MySQL** web application that lets you build and track a simulated s
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/stock-portfolio-tracker.git
+git clone https://github.com/megharajpanchmaal19-glitch/stock-portfolio-tracker.git
 cd stock-portfolio-tracker
 ```
 

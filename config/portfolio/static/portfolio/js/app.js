@@ -19,13 +19,14 @@ function getCsrfToken() {
   return match ? match[1] : '';
 }
 
-/** Format a numeric string as USD currency. */
-function formatUSD(value) {
-  return '$' + parseFloat(value).toLocaleString('en-US', {
+/** Format a numeric string as Indian Rupee (₹) currency. */
+function formatINR(value) {
+  return '₹' + parseFloat(value).toLocaleString('en-IN', {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
   });
 }
+const formatUSD = formatINR; // Alias for backward compatibility
 
 /** Show an element (remove 'hidden' class). */
 function show(el) { el.classList.remove('hidden'); }
